@@ -14,5 +14,5 @@ def convert(fileName):
     print(target)
     target.to_csv("./output/" + fileName, header=None, index=None)
 
-convert("testing_proteins_withannotation_STY.csv")
-#convert("training_proteins_nonredundant_STY.csv")
+# convert(csv 文件的位置)
+# 生成符合 test data.csv 格式的 CSV 文件
